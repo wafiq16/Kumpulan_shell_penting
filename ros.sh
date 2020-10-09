@@ -4,7 +4,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 
 sudo apt-get update
 
-sudo apt-get install ros-kinetic-desktop-full
+sudo apt-get install ros-kinetic-desktop-full -y
 
 apt-cache search ros-kinetic
 
@@ -17,6 +17,8 @@ source ~/.bashrc
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 
 printenv | grep ROS
+
+cd ..
 
 source /opt/ros/kinetic/setup.bash
 
