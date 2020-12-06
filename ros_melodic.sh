@@ -16,3 +16,5 @@ sudo apt install python-rosdep
 
 sudo rosdep init
 rosdep update
+
+sudo apt-get install ros-melodic-qt-build

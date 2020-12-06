@@ -1,8 +1,10 @@
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 
-sudo apt-get install build-essential
+sudo apt-get install build-essential -y 
 
-sudo apt-get install guvcview
+sudo apt-get install guvcview -y 
+
+sudo apt-get vlc -y
 
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 
@@ -41,7 +43,7 @@ mkdir build
 cd build
 
 
-cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D INSTALL_PYTHON_EXAMPLES=ON \ -D INSTALL_C_EXAMPLES=OFF \ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules \ -D BUILD_EXAMPLES=ON ..
+cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D INSTALL_PYTHON_EXAMPLES=ON \ -D INSTALL_C_EXAMPLES=OFF \ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules opencv-3.3.0 \ -D BUILD_EXAMPLES=ON ..
 
 make -j4
 
