@@ -1,2 +1,2 @@
-sudo apt-get update
-sudo apt-get install camera-calibration-parsers-tools
+sudo apt-get update -y
+sudo apt-get install camera-calibration-parsers-tools -y
