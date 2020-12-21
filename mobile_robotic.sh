@@ -10,4 +10,3 @@ sudo add-apt-repository ppa:joseluisblancoc/mrpt   # develop branch
 sudo apt-get update
 
 sudo apt install libmrpt-dev mrpt-apps
-
