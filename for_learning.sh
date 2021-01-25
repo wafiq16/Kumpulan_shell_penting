@@ -15,3 +15,9 @@ pip3 install tensorflow
 pip3 install keras
 
 pip3 install imageAI
+
+pip3 install pandas
+
+sudo apt-get install hdfview
+
+pip3 install google-cloud-videointelligence

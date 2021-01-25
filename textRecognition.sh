@@ -30,3 +30,5 @@ sudo apt-get update -y
 sudo apt-get install -y python-gtts
 
 sudo apt-get install mpg321
+
+pip3 install pdf2image
