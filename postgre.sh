@@ -1,11 +1,27 @@
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt install postgresql-client -y
-psql -h postgre-server -U postgre-user -y
+# add manual repo
+# sudo apt-get install wget ca-certificates
+# wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+# sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+# sudo apt-get update
+# sudo apt-get install postgresql postgresql-contrib
 
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt install postgresql -y
+# from local repo
+apt show postgresql
+sudo apt install postgresql postgresql-contrib
+
+# check connection to postgree-sql
+# sudo su - postgres
+# psql
+# \conninfo
+
+# sudo apt-get update -y
+# sudo apt-get upgrade -y
+# sudo apt install postgresql-client -y
+# psql -h postgre-server -U postgre-user -y
+
+# sudo apt-get update -y
+# sudo apt-get upgrade -y
+# sudo apt install postgresql -y
 
 # show port which connected
 # ss -nlt
