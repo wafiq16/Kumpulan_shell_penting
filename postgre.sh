@@ -35,6 +35,8 @@ sudo apt install pgadmin4-web
 # Configure the webserver, if you installed pgadmin4-web:
 sudo /usr/pgadmin4/bin/setup-web.sh
 
+sudo snap install postman
+
 
 # check connection to postgree-sql
 # sudo su - postgres
