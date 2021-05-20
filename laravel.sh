@@ -16,4 +16,4 @@ sudo mv composer.phar /usr/local/bin/composer
 
 sudo chmod +x /usr/local/bin/composer
 
-composer create-project --prefer-dist laravel/laravel [project_name]
+# composer create-project --prefer-dist laravel/laravel 
