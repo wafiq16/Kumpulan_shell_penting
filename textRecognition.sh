@@ -6,7 +6,7 @@ sudo apt install tesseract-ocr
 
 sudo apt install libtesseract-dev
 
-sudo pip install pytesseract
+sudo pip3 install pytesseract
 
 # ubuntu 14 16
 
@@ -18,7 +18,7 @@ sudo apt install tesseract-ocr
 
 sudo apt install libtesseract-dev
 
-sudo pip install pytesseract
+sudo pip3 install pytesseract
 
 # how too compile
 
@@ -27,7 +27,7 @@ sudo pip install pytesseract
 # additional tools for add spech which detected
 
 sudo apt-get update -y
-sudo apt-get install -y python-gtts
+sudo apt-get install -y python3-gtts
 
 sudo apt-get install mpg321
 
