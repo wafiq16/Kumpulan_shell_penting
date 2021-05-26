@@ -13,3 +13,9 @@ sudo apt-get install qt5-doc-html qtbase5-doc-html -y
 #If examples are still missing:
 
 sudo apt-get install qtbase5-examples -y
+
+# optional when you use qt on python
+
+sudo pip3 install --upgrade pip
+
+sudo pip3 install pyqt5 pyqt5-tools
