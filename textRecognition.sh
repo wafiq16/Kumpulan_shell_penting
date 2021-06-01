@@ -28,8 +28,11 @@ sudo pip3 install pytesseract
 
 sudo apt-get update -y
 sudo apt-get install -y python3-gtts
+sudo apt-get install -y python3-vision
 
 sudo apt-get install mpg321
 
 pip3 install pdf2image
+# pip3 install docx2pdf
+pip3 install unoconv
 pip3 install fpdf
