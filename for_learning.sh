@@ -36,6 +36,8 @@ pip3 install lxml
 pip3 install tensorflow
 
 pip3 install keras
+pip3 install numpy
+pip3 install scipy
 
 pip3 install imageAI
 
