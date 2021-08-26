@@ -17,7 +17,7 @@ sudo -i R
 
 install.packages("remotes")
 remotes::install_github("hadley/devtools")
-# install.packages(c("poppr", "mmod", "magrittr", "treemap"), repos = "http://cran.rstudio.com", dependencies = TRUE)
+install.packages(c("poppr", "mmod", "magrittr", "treemap"), repos = "http://cran.rstudio.com", dependencies = TRUE)
 q()
 
 # To install RStudio IDE, do the following:
